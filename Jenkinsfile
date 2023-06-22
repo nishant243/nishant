@@ -28,5 +28,11 @@ pipeline {
                 sh 'echo "Dev ..."'
             }
         }
+
+        stage('Test environment') {
+            steps {
+                sh 'echo "test...."'
+            }
+        }
     }
 }
